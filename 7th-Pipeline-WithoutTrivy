@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_IMAGE = "reema4311/devopsexamapp:latest"
+        DOCKER_IMAGE = "vikascloud/devopsexamapp:latest"
         SCANNER_HOME = tool 'sonar-scanner'
     }
 
